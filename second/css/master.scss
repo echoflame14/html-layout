@@ -1,0 +1,43 @@
+$blue:#4A90E2;
+$light-blue:#50E3C2;
+$green:#B8E986;
+$red:#D0021B;
+
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.clearfix{
+	clear: both;
+}
+
+body{
+	height: 1000px;
+	.box{
+		width: 33%;
+		height: 1000px;
+		float: left;
+	}
+	.blue{
+		background-color:$blue;
+	}
+	.light-blue{
+		background-color: $light-blue;
+	}
+	.green{
+		background-color: $green;
+		height: 800px;
+	}
+	.place{
+		background-color: $red;
+		height: 200px;
+		width: 33%;
+		h1{
+			font-size: 1.8em;
+			text-align: center;
+			color: white;
+			line-height: 200px;
+		}
+	}
+}

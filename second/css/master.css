@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+.clearfix {
+  clear: both; }
+
+body {
+  height: 1000px; }
+  body .box {
+    width: 33%;
+    height: 1000px;
+    float: left; }
+  body .blue {
+    background-color: #4A90E2; }
+  body .light-blue {
+    background-color: #50E3C2; }
+  body .green {
+    background-color: #B8E986;
+    height: 800px; }
+  body .place {
+    background-color: #D0021B;
+    height: 200px;
+    width: 33%; }
+    body .place h1 {
+      font-size: 1.8em;
+      text-align: center;
+      color: white;
+      line-height: 200px; }
+
+/*# sourceMappingURL=master.css.map */
