@@ -1,0 +1,36 @@
+//colors
+$black:#222222;
+$light-black: #444444;
+$gray:#EFEFEF;
+$iron:#D8D8D8;
+
+
+body{
+	width: 100%;
+	background-color: $gray;
+	.head{
+		background-color: $light-black;
+		height: 200px;
+		width: 100%;
+	}
+	.left{
+		float: left;
+		background-color: $iron;
+		height: 1000px;
+		width: 15%;
+	}
+	.right{
+		float: right;
+		background-color: $iron;
+		height: 1000px;
+		width: 15%;
+	}
+	footer{
+		width: 100%;
+		background-color: $black;
+		height: 100px;
+		position: absolute;
+		top: 1107px;
+		z-index: -10;
+	}
+}
